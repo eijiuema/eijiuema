@@ -211,10 +211,10 @@ body {
 
 .language-switch .active {
 	text-decoration: none;
-	cursor: default;
 }
 
 .language-switch .active:hover {
+	cursor: default;
 	color: inherit;
 }
 
