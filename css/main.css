@@ -121,7 +121,7 @@ body {
 
 .left-side {
 	position: relative;
-	flex: 1;
+	flex: 100%;
 	max-width: 700px;
 	min-width: 284px;
 }
@@ -154,7 +154,7 @@ body {
 }
 
 .right-side {
-	flex: 2;
+	flex: 320px;
 	padding: 0 1em;
 }
 
