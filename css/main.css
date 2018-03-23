@@ -209,11 +209,11 @@ body {
 	cursor: pointer;
 }
 
-.language-switch .active {
+.language-switch > .active > a {
 	text-decoration: none;
 }
 
-.language-switch .active:hover {
+.language-switch > .active:hover > a {
 	cursor: default;
 	color: inherit;
 }

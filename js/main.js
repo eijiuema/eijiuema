@@ -15,9 +15,9 @@ if($('[lang="' + userLang + '"]').length) {
 	$('[lang="en-US"]').show();
 }
 
-$('.language-switch a').on('click', function(e) {
+$('.language-switch li').on('click', function(e) {
 
-	$('.language-switch a').removeClass('active');
+	$('.language-switch li').removeClass('active');
 	$(this).addClass('active');
 
 	$('[lang]').hide();
