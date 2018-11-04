@@ -23,8 +23,6 @@
 
 		<style>
 			body {
-				/*background-color: #58C5FF;*/
-				color: #FFFFFF;
 				font-family: 'Josefin Sans', sans-serif;
 			}
 
@@ -34,9 +32,11 @@
 				background-repeat: repeat;
 			}
 
+			h1 {
+				font-size: 4em;
+			}
+
 			.links {
-				background: #FFFFFF;
-				padding: 12px;
 				border-top-left-radius: 1em;
 				border-bottom-right-radius: 1em;
 			}
@@ -46,23 +46,28 @@
 				font-size: 2.5em;
 			}
 
-			h1 {
-				font-size: 4em;
+			.project-logo {
+				width: 128px;
+				height: 128px;
 			}
 
+			.card, .card:hover, .card:visited {
+				color: inherit;
+				text-decoration: none;
+			}
 		</style>
 
 	</head>
 
-	<body>
+	<body class="text-light">
 		<div class="container-fluid text-center text-lg-left">
 			<div class="row">
-				<div class="col-12 col-lg-3 col-xl-4 mb-3 mx-auto text-center">
-					<!-- <img class="rounded-circle w-100" style="width: 160px" src="img/picture.jpg" alt="Eiji Uema picture"> -->
-					<img class="w-75" src="img/Kuroko.png" alt="Eiji Uema picture">
-					<div class="d-flex justify-content-around my-auto links">
+				<div class="col-12 col-lg-3 mb-3 mx-auto text-center">
+					<img class="w-100" src="img/Kuroko.png" alt="Eiji Uema picture" style="max-width: 320px;">
+					<div class="d-flex justify-content-around my-auto links p-2 bg-light">
 						<a href="https://github.com/eijiuema"><i class="fab fa-github"></i></a>
-						<a href="https://www.facebook.com/simbatatas"><i class="fab fa-facebook"></i></a>
+						<a href="http://discordapp.com/users/135179529659351040"><i class="fab fa-discord"></i></a>
+						<a href="https://twitter.com/eijiuema"><i class="fab fa-twitter"></i></a>
 						<a href="mailto:eijiuema@gmail.com"><i class="fa fa-envelope"></i></a>
 					</div>
 				</div>
@@ -72,9 +77,29 @@
 						<h2>Olá! Meu nome é Eiji Uema, e eu sou um desenvolvedor web full stack freelance.</h2>
 					</div>
 					<h2 class="my-3">Veja alguns dos meus projetos:</h2>
-					<div class="row">
-						<div class="col-10 col-md-6 col-lg-4 col-xl-3 mx-auto">
-							<img src="img/projects/secot.png" alt="Logo X SeCoT" class="w-100">
+					<div class="text-dark">
+						<div class="card-deck">
+							<a href="https://secot.com.br" class="card">
+								<img src="img/projects/secot.png" alt="Logo X SeCoT" class="card-img-top py-3 m-auto" style="max-width: 176px;">
+								<div class="card-body">
+									<h5 class="card-title">X SeCoT</h5>
+									<p class="card-text">10ª Semana da Computação e Tecnologia da UFSCar de Sorocaba.</p>
+								</div>
+							</a>
+							<a href="http://tecfasabrasil.com.br" class="card">
+								<img src="img/projects/tecfasa.png" alt="Logo X SeCoT" class="card-img-top py-3 m-auto" style="max-width: 176px;">
+								<div class="card-body">
+									<h5 class="card-title">Tecfasa Brasil</h5>
+									<p class="card-text">Empresa do setor energético e solar fotovoltáico.</p>
+								</div>
+							</a>
+							<a href="https://eijiuema.github.io/YDKList/" class="card">
+								<img src="img/projects/ydklist.png" alt="Logo X SeCoT" class="card-img-top py-3 m-auto" style="max-width: 176px;">
+								<div class="card-body">
+									<h5 class="card-title">YDKList</h5>
+									<p class="card-text">Ferramenta de pesquisa de preços de cards de Yu-Gi-Oh! através de decks do YGOPro.</p>
+								</div>
+							</a>
 						</div>
 					</div>
 				</div>
