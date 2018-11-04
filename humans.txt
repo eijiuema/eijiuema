@@ -1,11 +1,8 @@
-# humanstxt.org/
-# The humans responsible & technology colophon
-
 # TEAM
 
-    Gabriel Eiji Uema Martin -- Web Developer -- @EijiUema
+    Gabriel Eiji Uema Martin -- Full Stack Web Developer -- @EijiUema
 
 # TECHNOLOGY COLOPHON
 
     CSS3, HTML5
-    Apache Server Configs, jQuery, Modernizr, Normalize.css
+    Apache Server Configs, jQuery, PopperJS, Bootstrap
